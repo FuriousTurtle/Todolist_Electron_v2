@@ -1,0 +1,19 @@
+{
+  "name": "electronapp",
+  "version": "1.1.0",
+  "description": "Thats my first electron app !!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Tony",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.0.2",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "electron-builder": "^20.38.5"
+  }
+}

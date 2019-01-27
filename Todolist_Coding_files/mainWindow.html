@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Todolist Electron V1.0 Tony.M</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="visual.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="main">
+    <h4>Aujourd'hui, nous sommes <span id="jourDate" style="display:inline;"></span> !</h4>
+    <label for="titre">Titre :</label>
+    <input type="text" id="titre" name="titre" />
+
+    <label for="tache">Tâche :</label>
+    <textarea cols="40" rows="3" id="tache" name="tache" size="25"></textarea>
+
+    <button onclick="addTache()">Ajouter</button>
+
+    <div id="liste-tache">
+      <h1>Choses à faire aujourd'hui !</h1>
+    </div>
+  </div>
+</body>
+<script src="jsfunctions.js"></script>
+
+</html>
