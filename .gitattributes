@@ -1,4 +1,4 @@
-Todolist_app.zip* linguist-vendored
-Todolist_Coding_files/visual.css linguist-vendored
-Todolist_Coding_files/mainWindow.css linguist-vendored
-Todolist_Coding_files/node_modules/uri-js/tests/qunit.css linguist-vendored
+./Todolist_app.zip linguist-vendored
+./Todolist_Coding_files/visual.css linguist-vendored
+./Todolist_Coding_files/mainWindow.css linguist-vendored
+./Todolist_Coding_files/node_modules/uri-js/tests/qunit.css linguist-vendored
