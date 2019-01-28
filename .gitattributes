@@ -1,2 +1,2 @@
-* linguist-vendored
-*.js linguist-vendored=false
+Todolist_Coding_files/* linguist-vendored
+Todolist_Coding_files/*.js linguist-vendored=false
